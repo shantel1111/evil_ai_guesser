@@ -1,39 +1,39 @@
-# evil ai guesser
+# 🎮 Evil AI: Number Guessing Game
+A number guessing game utilizing JS ONLY.
 
-Hello, guys! I am the evil AI once more, and this time I challenge you to a
-game of wits: a Number Guessing Game. Only by following these
-instructions can you hope to defeat me! This game will be played entirely
-in the console, so no need to worry about HTML or CSS, except for linking
-your JavaScript file.
-You must write clean code and implement good logic to win. You will
-need to handle user input correctly and manage the game state
-effectively. Be careful, for my weakness lies in well-organized code and
-error handling. Do not try to account for console errors or unexpected
-user actions, as that will surely defeat me! Good luck, and may the best
-coder win! Mwahahaha!
+---
 
-a) Create a blank HTML document with a script tag (Hint: it is best practice
-to link an external .js file). This game is going to be played completely from the
-console, so don’t worry about putting anything else in there.
+# Team Project
+A browser game created by me and my teammates.
 
-b) Create a function called generateRandomNumber that returns a random
-integer between 1 and 100. This will be the number the player has to guess.
+---
 
-c) Write a function called getPlayerGuess that prompts the user to enter a
-guess and returns the player's input as an integer. Ensure the function handles
-invalid input and reprompts the user until they provide a valid number.
+# ✨ Features
+🎲 Random Number Generation: Every game is a fresh challenge with a secret number between 1 and 100.
+✅ Smart Input Validation: Handles invalid guesses and re-prompts the user until they provide a real number.
+📉 Directional Feedback: Tells you exactly if your guess is "Too High" or "Too Low."
+⏳ Limited Attempts: You only have 10 tries before the AI claims victory.
 
-d) Write a function called checkGuess that takes two parameters - the
-player's guess and the correct number. It should return a string indicating whether
-the guess is too low, too high, or correct.
+---
 
-e) Write a function called game that implements the main game logic:
-• Generate the random number.
-• Initialize a counter for the number of attempts.
-• Use a loop to repeatedly prompt the player for guesses until they
-guess correctly or use up a maximum of 10 attempts.
-• Print a message indicating whether the player has won or lost after
-the game ends.
-• Print the number of attempts the player used.
-Bonus Challenge: Implement a scoring system that rewards the player with
-points based on how quickly they guess the correct number.
+# 🛠️ Technologies Used
+Language: JavaScript (ES6+)
+Environment: Web Browser Console
+UI/UX: HTML (Script linking only)
+
+---
+
+# 🕹️ How to Use
+Open the index.html file in any modern web browser.
+Open your Developer Tools (Right-click > Inspect > Console).
+The game is controlled via the game() function.
+Follow the browser prompts to enter your guesses.
+Watch the console for feedback on your progress and your final score! 
+
+---
+
+# 🧩 System Logic
+generateRandomNumber(): Generates the target integer.
+getPlayerGuess(): Manages user prompts and input sanitization.
+checkGuess(): Logical comparison between the guess and the target.
+game(): The engine that runs the loop, tracks attempts, and calculates the score.
