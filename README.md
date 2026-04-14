@@ -24,11 +24,11 @@ A browser game created by me and my teammates.
 ---
 
 # 🕹️ How to Use
-1.Open the index.html file in any modern web browser.
-2.Open your Developer Tools (Right-click > Inspect > Console).
-3.The game is controlled via the game() function.
-4.Follow the browser prompts to enter your guesses.
-5.Watch the console for feedback on your progress and your final score! 
+1. Open the index.html file in any modern web browser.
+2. Open your Developer Tools (Right-click > Inspect > Console).
+3. The game is controlled via the game() function.
+4. Follow the browser prompts to enter your guesses.
+5. Watch the console for feedback on your progress and your final score! 
 
 ---
 
