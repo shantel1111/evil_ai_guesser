@@ -104,7 +104,10 @@ function game() {
 
   while (playerGuess !== randomNumber && attemptCounter < maxAttempts) {
     playerGuess = getPlayerGuess(attemptCounter, previousGuesses);
-    if (playerGuess === null) return;
+    if (playerGuess === null) {
+      alert(`Game cancelled. Goodbye!`);
+      return;
+    }
     attemptCounter++;
     previousGuesses.push(playerGuess);
     alert(checkGuess(playerGuess, randomNumber));
